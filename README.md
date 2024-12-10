@@ -1,2 +1,1 @@
-# skrhm.github.io
-GitHub Pages
+# [skrhm.github.io](https://github.com/skrhm/skrhm.github.io/)
