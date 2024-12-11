@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -58,7 +58,8 @@ header {
 
 .sidebar ul {
     margin: auto;
-    padding: 0 10px 0 10px;
+    /* padding: 0 0 0 20px; */
+    padding-left: 20px;
     font-size: 12px;
 }
 
@@ -101,7 +102,7 @@ footer p {
     border-radius: 50%;
     background-position: center center;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     display: block;
 }
 
@@ -121,12 +122,10 @@ footer p {
 
     .sidebar {
         width: 100%;
-        margin-bottom: 20px;
     }
 
     .sidebar.left {
         order: 2;
-        width: 50%;
     }
 
     .main {
@@ -135,16 +134,30 @@ footer p {
 
     .sidebar.right {
         order: 3;
-        width: 50%;
     }
 
-    /* Responsive */
+    /* Responsive Mini Profile */
+    .mini-profile-container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    /* Mini Icon */
     #mini-icon {
         width:  30%;
         height: 30%;
         border-radius: 50%;
         background-position: center center;
-        margin: auto;
-        display: block;
+        margin-left: 20px;
+    }
+
+    /* Mini Profile List */
+    .mini-profile-container ul {
+        flex-grow: 1;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
     }
 }
