@@ -1,1 +1,1 @@
-# [https://skrhm.github.io](https://skrhm.github.io/)
+# [skrhm.github.io](https://skrhm.github.io/)
