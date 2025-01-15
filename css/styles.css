@@ -106,9 +106,13 @@ footer p {
     display: block;
 }
 
+#github-icon {
+    width: 50%;
+    height: 50%;
+}
 /* Clock */
 #clock {
-    color: #fef4f4 !important;
+    color: pink !important;
     font-size: 250%;
     font-weight: bold;
     text-align: center;
