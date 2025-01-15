@@ -11,6 +11,9 @@ function clock() {
     // 表示するテキストと属性を設定
     el.textContent = `${h}:${m}:${s}`;
     el.setAttribute("datetime", now.toISOString()); // ISO形式でdatetime属性を設定
+
+    // タイトルに時刻を反映
+    document.title = `現在の時刻: ${new Date().toLocaleTimeString()}`;
 }
 
 // ページ読み込み時に時計を開始
