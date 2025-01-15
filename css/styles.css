@@ -106,17 +106,9 @@ footer p {
     display: block;
 }
 
-/* Mini Profile Contents */
-/* aside ul { 
-    display: inline-block;
-    text-align: left;
-    margin-top: 10px;
-    padding: 10px;
-} */
-
 /* Clock */
 #clock {
-    font-size: 16px;
+    font-size: 250%;
     font-weight: bold;
     text-align: center;
 }
