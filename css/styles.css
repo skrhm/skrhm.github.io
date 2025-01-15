@@ -108,8 +108,13 @@ footer p {
 
 /* Clock */
 #clock {
+    color: #fef4f4 !important;
     font-size: 250%;
     font-weight: bold;
+    text-align: center;
+}
+
+.clock-container {
     text-align: center;
 }
 
