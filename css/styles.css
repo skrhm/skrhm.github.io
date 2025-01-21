@@ -185,4 +185,10 @@ footer p {
         margin: 0;
         text-align: left;
     }
+
+    #github-icon {
+        width: 30%;
+        height: 30%;
+        margin-left: 20px;
+    }
 }
