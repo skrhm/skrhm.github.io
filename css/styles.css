@@ -107,6 +107,11 @@ footer p {
     display: block;
 }
 
+#github-container {
+    text-align: left;
+    width: 30%;
+}
+
 #github-icon {
     width: 50%;
     height: 50%;
