@@ -8,7 +8,8 @@ body {
     line-height: 1.6;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure footer stays at the bottom */
+    min-height: 100vh;
+    /* Ensure footer stays at the bottom */
 }
 
 /* Header Section */
@@ -45,7 +46,8 @@ header {
 .content {
     display: flex;
     gap: 10px;
-    flex: 1; /* Push footer to the bottom */
+    flex: 1;
+    /* Push footer to the bottom */
     padding: 10px;
 }
 
@@ -77,7 +79,9 @@ section {
 }
 
 /* Typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 5px;
@@ -98,7 +102,7 @@ footer p {
 
 /* Mini Icon */
 #mini-icon {
-    width:  75%;
+    width: 75%;
     height: 75%;
     border-radius: 50%;
     background-position: center center;
@@ -116,6 +120,13 @@ footer p {
     width: 50%;
     height: 50%;
 }
+
+#ip {
+    color: cornflowerblue;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* Clock */
 #clock {
     color: pink !important;
@@ -159,7 +170,7 @@ footer p {
 
     /* Mini Icon */
     #mini-icon {
-        width:  30%;
+        width: 30%;
         height: 30%;
         border-radius: 50%;
         background-position: center center;
